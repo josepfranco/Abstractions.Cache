@@ -17,7 +17,8 @@ namespace Abstractions.Cache
         /// <typeparam name="TObject">the object type it's expecting to get</typeparam>
         /// <param name="token">the cancellation token</param>
         /// <returns>a task with the object deserialized, or null if none was found</returns>
-        Task<TObject> GetAsync<TObject>(string key, CancellationToken token = default);
+        Task<TObject> GetAsync<TObject>(string key, CancellationToken token = default)
+            where TObject : class;
         
         /// <summary>
         /// Saves an object in a cache with a certain key and expiry duration asynchronously
