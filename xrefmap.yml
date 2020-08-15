@@ -1,0 +1,47 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abstractions.Cache
+  name: Abstractions.Cache
+  href: api/Abstractions.Cache.html
+  commentId: N:Abstractions.Cache
+  fullName: Abstractions.Cache
+  nameWithType: Abstractions.Cache
+- uid: Abstractions.Cache.ICache
+  name: ICache
+  href: api/Abstractions.Cache.ICache.html
+  commentId: T:Abstractions.Cache.ICache
+  fullName: Abstractions.Cache.ICache
+  nameWithType: ICache
+- uid: Abstractions.Cache.ICache.GetAsync*
+  name: GetAsync
+  href: api/Abstractions.Cache.ICache.html#Abstractions_Cache_ICache_GetAsync_
+  commentId: Overload:Abstractions.Cache.ICache.GetAsync
+  isSpec: "True"
+  fullName: Abstractions.Cache.ICache.GetAsync
+  nameWithType: ICache.GetAsync
+- uid: Abstractions.Cache.ICache.GetAsync``1(System.String,CancellationToken)
+  name: GetAsync<TObject>(String, CancellationToken)
+  href: api/Abstractions.Cache.ICache.html#Abstractions_Cache_ICache_GetAsync__1_System_String_CancellationToken_
+  commentId: M:Abstractions.Cache.ICache.GetAsync``1(System.String,CancellationToken)
+  name.vb: GetAsync(Of TObject)(String, CancellationToken)
+  fullName: Abstractions.Cache.ICache.GetAsync<TObject>(System.String, CancellationToken)
+  fullName.vb: Abstractions.Cache.ICache.GetAsync(Of TObject)(System.String, CancellationToken)
+  nameWithType: ICache.GetAsync<TObject>(String, CancellationToken)
+  nameWithType.vb: ICache.GetAsync(Of TObject)(String, CancellationToken)
+- uid: Abstractions.Cache.ICache.SetAsync(System.String,System.Object,System.Nullable{TimeSpan},CancellationToken)
+  name: SetAsync(String, Object, Nullable<TimeSpan>, CancellationToken)
+  href: api/Abstractions.Cache.ICache.html#Abstractions_Cache_ICache_SetAsync_System_String_System_Object_System_Nullable_TimeSpan__CancellationToken_
+  commentId: M:Abstractions.Cache.ICache.SetAsync(System.String,System.Object,System.Nullable{TimeSpan},CancellationToken)
+  name.vb: SetAsync(String, Object, Nullable(Of TimeSpan), CancellationToken)
+  fullName: Abstractions.Cache.ICache.SetAsync(System.String, System.Object, System.Nullable<TimeSpan>, CancellationToken)
+  fullName.vb: Abstractions.Cache.ICache.SetAsync(System.String, System.Object, System.Nullable(Of TimeSpan), CancellationToken)
+  nameWithType: ICache.SetAsync(String, Object, Nullable<TimeSpan>, CancellationToken)
+  nameWithType.vb: ICache.SetAsync(String, Object, Nullable(Of TimeSpan), CancellationToken)
+- uid: Abstractions.Cache.ICache.SetAsync*
+  name: SetAsync
+  href: api/Abstractions.Cache.ICache.html#Abstractions_Cache_ICache_SetAsync_
+  commentId: Overload:Abstractions.Cache.ICache.SetAsync
+  isSpec: "True"
+  fullName: Abstractions.Cache.ICache.SetAsync
+  nameWithType: ICache.SetAsync
